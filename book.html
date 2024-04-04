@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casita Azul</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <img class="logo" src="img/logo.jpg" alt="">
+        <nav class="navbar">
+             <a href="index.html">Home</a>
+             <a href="services.html">Services</a>
+             <a href="gallery.html">Gallery</a>
+             <a href="review.html">Review</a>
+             <a href="contact.html">Contact</a>
+             <a href="book.html">Book</a>
+        </nav>
+        <div class="icons">
+            <i class="" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+             <h3>login</h3>
+             <input type="email" class="box" placeholder="enter your email">
+             <input type="password" class="box" placeholder="enter your Password">
+             <input type="submit" value="login now" class="btn">
+             <input type="checkbox" id="remember">
+             <label for="remember">Remember me</label>
+             <p>forgrt password? <a href="#">click here</a></p>
+             <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="price-container">
+            <div class="payment-policy">
+                <h2>Payment Policy:</h2>
+                <ul>
+                    <li><span>✏️</span> 50% down payment deposit for reservation</li>
+                    <li><span>✏️</span> Full payment upon check in</li>
+                    <li><span>✏️</span> Reservation payment is non-refundable if you cancel your booking</li>
+                    <li><span>🗒️</span> Please submit the complete guest list with valid ID 24hrs before check in</li>
+                </ul>
+            </div>
+            <div class="price-list">
+                <h2>Price List:</h2>
+                <ul>
+                    <li><span>👩‍❤️‍👨</span> 2pax - 1,599 (movie room & pool not included) <br> ** additional 500 for pool and 350 for movie room **</li>
+                    <li><span>👨‍👩‍👧‍👦</span> 4 pax - 2,199 includes movie room (pool not included) <br> ** additional 500 for pool **</li>
+                    <li><span>👨‍👩‍👧‍👦👩‍❤️‍👨</span> 6 pax - 3,199 includes movie room and pool</li>
+                    <li><span>👨‍👩‍👧‍👦👨‍👩‍👧‍👦</span> 8pax - 3,799 includes movie room and pool</li>
+                    <li>Additional 300 per head for exceeding guest</li>
+                    <li>Additional 350 for AC aircon in living room</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="img">
+                <img decoding="async" src="" alt="">
+            </div>
+            <form action="">
+                  <div class="inputBox">
+                    <h3>How many </h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Check In</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Check Out</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>The ideal location for decompressing, unwinding, and spending the evening with loved ones. With your very own karaoke set, belt out your heartfelt songs. Sip champagne while overlooking your personal mini-pool. And with your own theatre room, elevate Netflix and chill to a whole new level.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">Sannera, San Antonio II</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="services.html">service</a>
+                <a href="gallery.html">gallery</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+                <a href="book.html">book</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+            </div>
+        </div>
+        <h1 class="credit"> created by <span>Bs info students</span> | all rights reserved!! </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer data-deferred="1"></script>
+    <script src="main.js" defer data-deferred="1"></script> 
+</body>
+</html>
